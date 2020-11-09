@@ -1,0 +1,28 @@
+﻿<Window x:Class="ValorantLogin.View.LoginForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValorantLogin.View"
+        mc:Ignorable="d"
+        Title="Login" Height="484" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="valorant-game-logo-icon-eps-10-gaming-streamer-vector-33193787.jpg">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="422" VerticalAlignment="Top" Width="393" Margin="-38,112,0,-79" Source="viper-specs.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <Label Content="Welcome to" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,29,0,0" FontFamily="Unispace" FontSize="40" Height="58" Width="254"/>
+        <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="390" Margin="324,29,0,0" Source="4bcd537b6c034e297f0030cf08887426.png"/>
+        <Label Content="Please Login First" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,112,0,0" FontFamily="Unispace" FontSize="20" Height="33" Width="232"/>
+        <Label Content="Email / Username :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,160,0,0" FontFamily="Unispace" FontSize="16" Height="33" Width="181"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,277,0,0" Width="382" Height="33" BorderBrush="{x:Null}" Foreground="White" SelectionBrush="{x:Null}" Background="#FF364966" FontSize="18" Password="Fliw123"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="36" Margin="360,198,0,0" TextWrapping="Wrap" Text="Fliw" VerticalAlignment="Top" Width="382" Foreground="White" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" Background="#FF364966" FontSize="18" FontWeight="Bold" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Password :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,239,0,0" FontFamily="Unispace" FontSize="16" Height="33" Width="181"/>
+        <Button Content="LOGIN" HorizontalAlignment="Left" Margin="360,388,0,0" VerticalAlignment="Top" Width="382" BorderBrush="{x:Null}" Background="#FFDC3D4B" Height="46" FontFamily="Unispace" Click="Button_Click"/>
+        <Label Content="Doesn't Have An Account?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,315,0,0" FontFamily="Unispace" Height="23" Width="187"/>
+        <Label Content="Register Here!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="547,315,0,0" FontFamily="Unispace" Height="23" Width="117" Foreground="#FFDC3D4B"/>
+        <Label Content="Forgot Password?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,343,0,0" FontFamily="Unispace" Height="23" Width="127" Foreground="#FFDC3D4B"/>
+
+    </Grid>
+</Window>

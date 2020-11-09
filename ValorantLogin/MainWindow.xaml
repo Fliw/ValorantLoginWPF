@@ -1,0 +1,23 @@
+﻿<Window x:Class="ValorantLogin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValorantLogin"
+        mc:Ignorable="d"
+        Title="VALORANT" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="valorant-game-logo-icon-eps-10-gaming-streamer-vector-33193787.jpg">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="795" Source="valorant-gets-competitive-ranked-mode-in-update-1-02.jpg" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Margin="0,0,-3,0">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.17"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.244"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Content="Please Wait While We Loading..." HorizontalAlignment="Left" Margin="495,227,0,0" VerticalAlignment="Top" FontFamily="Segoe Print"/>
+
+    </Grid>
+</Window>
